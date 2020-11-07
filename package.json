@@ -1,0 +1,20 @@
+{
+  "name": "rgam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently --names \"server,client\" \"cd server && npm start --silent\" \"cd client && npm start --silent\""
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "concurrently": "^5.3.0",
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.4"
+  }
+}
